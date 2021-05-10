@@ -1,0 +1,54 @@
+Gera Valmynd með þessum þrem verkefnum og valmöguleikum að hætta.
+1. Randomtölur 40%
+2. Símaskrá 30%
+3. Ferningur 30%
+4. hætta
+
+Liður 1 - Randomtölur(40%)
+Hannið forrit með 4 föllum(function):
+    Fallið gera_lista(byrjun, endir, fjoldi) tekur inn 3 tölur - byrjun, endir og fjoldi.
+    Fallið á að skila/return lista
+        Breytan fjoldi á að vera með sjálfgefið gildi(default value) 100.
+
+    Fallið syna_lista(listi) tekur við lista.
+        Fallið birtir allar tölurnar í listanum í einni línu með tvípunkt á milli talna.
+
+    Fallið medaltal() tekur inn óákveðin fjölda talna.
+        Fallið skilar síðan meðaltali þeirra með þremur aukastöfum.
+    
+    Fallið deilanlegt(tolulisti, tala) hefur tvær færibreytur
+        fallið skilar frá sér lista með þeim tölum sem eru í tolulisti og tala gengur ekki upp í
+
+Prófið föllin - sýna notkun þeirra með eftirfarandi aðgerðum
+Muna að prenta bara ekki út tölurnar heldur segja hverju sinni hvað er verið að prenta út
+
+    Kallið í fallið gera_lista með lágmarkstölunni 100 og hámarkstölunni 200.
+        Setjið niðurstöðuna í listann listi1
+
+    Kallið í fallið syna_lista með listanum listi1
+
+    Kallið í fallið medaltal með fyrst með 7 tölum og svo með 3 tölum(Hér er ekki notaður listi)
+        Birtið meðaltal beggja
+
+    Kallið í fallið gera_lista með lágmarkstölunni 1 og hámarkstölunni 50 og fjölda 50.
+        Setjið niðurstöðuna í listann listi2.
+
+    Kallið í fallið deilanlegt með listanum listi2 og tölu að vali notanda.
+        Birtið listann sem fallið skilar.
+
+Liður 2. Skráarvinnsla (30%)
+Búið til forrit sem les skránna nemendur.txt sem fylgir með.
+
+    Lesið úr skránni og prentið út innihaldið línu fyrir línu, eitt nafn á línu
+
+    Leyfið notanda að bæta við nafni og skrifið það niður í skránna
+
+Liður 3. Klasar(30%)
+Búið til klasa sem heitir Ferningur og hefur eiginleikana hlidA og hlidB
+
+    Klasinn á að hafa __init__() og __str__()
+
+    Í klasanum á að vera fall staerri(self, ferningur2) sem ber saman tvo hluti/tilvik (e. instances) af gerðinni ferningur og skilar hvor þeirra er stærri í flatarmáli
+
+    Gerið fall medalFlatarmal(listi) sem reiknar meðaltal flatarmáls allra þeirra ferninga sem í listanum eru og skilar meðaltalsFlatarmálinu með 2 aukastöfum
+        Búið til 10 tilvik af klasanum Ferningur (notum lykkju) setjið í lista. Reiknið síðan meðaltal flatarmáls allra þessara tilvikia með fallinu medalFlatarmal()
